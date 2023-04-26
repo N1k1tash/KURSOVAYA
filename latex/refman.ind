@@ -1,0 +1,31 @@
+\begin{theindex}
+
+  \item {Client}, \hyperpage{7}
+    \subitem {interactWithServer}, \hyperpage{9}
+    \subitem {readLoginAndPasswordFromFile}, \hyperpage{9}
+    \subitem {readVectorsFromFile}, \hyperpage{9}
+  \item {Client.cpp}, \hyperpage{11}
+  \item {Client.h}, \hyperpage{11}
+  \item {Cons\_fix}, \hyperpage{10}
+
+  \indexspace
+
+  \item {ErrorManager}, \hyperpage{10}
+
+  \indexspace
+
+  \item {interactWithServer}
+    \subitem {Client}, \hyperpage{9}
+
+  \indexspace
+
+  \item {main.cpp}, \hyperpage{12}
+
+  \indexspace
+
+  \item {readLoginAndPasswordFromFile}
+    \subitem {Client}, \hyperpage{9}
+  \item {readVectorsFromFile}
+    \subitem {Client}, \hyperpage{9}
+
+\end{theindex}

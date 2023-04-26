@@ -1,0 +1,12 @@
+\indexentry{Client@{Client}|hyperpage}{7}
+\indexentry{Client@{Client}!interactWithServer@{interactWithServer}|hyperpage}{9}
+\indexentry{interactWithServer@{interactWithServer}!Client@{Client}|hyperpage}{9}
+\indexentry{Client@{Client}!readLoginAndPasswordFromFile@{readLoginAndPasswordFromFile}|hyperpage}{9}
+\indexentry{readLoginAndPasswordFromFile@{readLoginAndPasswordFromFile}!Client@{Client}|hyperpage}{9}
+\indexentry{Client@{Client}!readVectorsFromFile@{readVectorsFromFile}|hyperpage}{9}
+\indexentry{readVectorsFromFile@{readVectorsFromFile}!Client@{Client}|hyperpage}{9}
+\indexentry{Cons\_fix@{Cons\_fix}|hyperpage}{10}
+\indexentry{ErrorManager@{ErrorManager}|hyperpage}{10}
+\indexentry{Client.cpp@{Client.cpp}|hyperpage}{11}
+\indexentry{Client.h@{Client.h}|hyperpage}{11}
+\indexentry{main.cpp@{main.cpp}|hyperpage}{12}
