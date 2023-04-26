@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Connect. Документация: Класс Client</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Connect. Документация
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Программа для взаимодействия с сервером</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="classClient-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Client</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс взаимодействия с сервером  
+ <a href="classClient.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="Client_8h_source.html">Client.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a5a46036fa3bd2640a134b8836024738d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#a5a46036fa3bd2640a134b8836024738d">interactWithServer</a> ()</td></tr>
+<tr class="memdesc:a5a46036fa3bd2640a134b8836024738d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Главная функция для взаимодействия клиента с сервером  <a href="classClient.html#a5a46036fa3bd2640a134b8836024738d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5a46036fa3bd2640a134b8836024738d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358df55c9dc08e0a90169072fa6ba4c5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::vector&lt; uint32_t &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#a358df55c9dc08e0a90169072fa6ba4c5">readVectorsFromFile</a> ()</td></tr>
+<tr class="memdesc:a358df55c9dc08e0a90169072fa6ba4c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция для получения векторов из файла  <a href="classClient.html#a358df55c9dc08e0a90169072fa6ba4c5">Подробнее...</a><br /></td></tr>
+<tr class="separator:a358df55c9dc08e0a90169072fa6ba4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad42bb0731ca90d9ae6a0ef3ca61a22af"><td class="memItemLeft" align="right" valign="top"><a id="ad42bb0731ca90d9ae6a0ef3ca61a22af"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#ad42bb0731ca90d9ae6a0ef3ca61a22af">writeVectorsToFile</a> (const std::vector&lt; uint32_t &gt; &amp;vectors)</td></tr>
+<tr class="memdesc:ad42bb0731ca90d9ae6a0ef3ca61a22af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция для записи в файл результатов вычисления сервером <br /></td></tr>
+<tr class="separator:ad42bb0731ca90d9ae6a0ef3ca61a22af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d12d40010e32de931d562c6e8722d9f"><td class="memItemLeft" align="right" valign="top">std::pair&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#a9d12d40010e32de931d562c6e8722d9f">readLoginAndPasswordFromFile</a> ()</td></tr>
+<tr class="memdesc:a9d12d40010e32de931d562c6e8722d9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Функция для получения логина и пароля из файла  <a href="classClient.html#a9d12d40010e32de931d562c6e8722d9f">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9d12d40010e32de931d562c6e8722d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb302ca21e29a63e8a742b87e752f488"><td class="memItemLeft" align="right" valign="top"><a id="abb302ca21e29a63e8a742b87e752f488"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#abb302ca21e29a63e8a742b87e752f488">getServerAddress</a> () const</td></tr>
+<tr class="memdesc:abb302ca21e29a63e8a742b87e752f488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Геттер для m_serverAddress. <br /></td></tr>
+<tr class="separator:abb302ca21e29a63e8a742b87e752f488"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2db7f0162b88edfa5368b0a1d4f2fee5"><td class="memItemLeft" align="right" valign="top"><a id="a2db7f0162b88edfa5368b0a1d4f2fee5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#a2db7f0162b88edfa5368b0a1d4f2fee5">setServerAddress</a> (int address)</td></tr>
+<tr class="memdesc:a2db7f0162b88edfa5368b0a1d4f2fee5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сеттер для m_serverAddress. <br /></td></tr>
+<tr class="separator:a2db7f0162b88edfa5368b0a1d4f2fee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd9db35e1482005e9ac4370ba5a36592"><td class="memItemLeft" align="right" valign="top"><a id="afd9db35e1482005e9ac4370ba5a36592"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#afd9db35e1482005e9ac4370ba5a36592">getServerPort</a> () const</td></tr>
+<tr class="memdesc:afd9db35e1482005e9ac4370ba5a36592"><td class="mdescLeft">&#160;</td><td class="mdescRight">Геттер для m_serverPort. <br /></td></tr>
+<tr class="separator:afd9db35e1482005e9ac4370ba5a36592"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d78a0a5ec16cb8d26af3445ac3eba52"><td class="memItemLeft" align="right" valign="top"><a id="a9d78a0a5ec16cb8d26af3445ac3eba52"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#a9d78a0a5ec16cb8d26af3445ac3eba52">setServerPort</a> (int port)</td></tr>
+<tr class="memdesc:a9d78a0a5ec16cb8d26af3445ac3eba52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сеттер для m_serverPort. <br /></td></tr>
+<tr class="separator:a9d78a0a5ec16cb8d26af3445ac3eba52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad782c1100b02833cc1fa86ebd990483"><td class="memItemLeft" align="right" valign="top"><a id="aad782c1100b02833cc1fa86ebd990483"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#aad782c1100b02833cc1fa86ebd990483">getInputDataFile</a> () const</td></tr>
+<tr class="memdesc:aad782c1100b02833cc1fa86ebd990483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Геттер для m_inputDataFile. <br /></td></tr>
+<tr class="separator:aad782c1100b02833cc1fa86ebd990483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14ac94a98f0c3f014621f794f889e78c"><td class="memItemLeft" align="right" valign="top"><a id="a14ac94a98f0c3f014621f794f889e78c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#a14ac94a98f0c3f014621f794f889e78c">setInputDataFile</a> (const string &amp;filename)</td></tr>
+<tr class="memdesc:a14ac94a98f0c3f014621f794f889e78c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сеттер для m_inputDataFile. <br /></td></tr>
+<tr class="separator:a14ac94a98f0c3f014621f794f889e78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a598df4faf99a4bafaf127b3b99929b7b"><td class="memItemLeft" align="right" valign="top"><a id="a598df4faf99a4bafaf127b3b99929b7b"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#a598df4faf99a4bafaf127b3b99929b7b">getOutputDataFile</a> () const</td></tr>
+<tr class="memdesc:a598df4faf99a4bafaf127b3b99929b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Геттер для m_outputDataFile. <br /></td></tr>
+<tr class="separator:a598df4faf99a4bafaf127b3b99929b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d4aae094ba001ebc91cac71545c852c"><td class="memItemLeft" align="right" valign="top"><a id="a3d4aae094ba001ebc91cac71545c852c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#a3d4aae094ba001ebc91cac71545c852c">setOutputDataFile</a> (const string &amp;filename)</td></tr>
+<tr class="memdesc:a3d4aae094ba001ebc91cac71545c852c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сеттер для m_outputDataFile. <br /></td></tr>
+<tr class="separator:a3d4aae094ba001ebc91cac71545c852c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada17e393a30cd59efba7860e73690750"><td class="memItemLeft" align="right" valign="top"><a id="ada17e393a30cd59efba7860e73690750"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#ada17e393a30cd59efba7860e73690750">getClientCredentialsFile</a> () const</td></tr>
+<tr class="memdesc:ada17e393a30cd59efba7860e73690750"><td class="mdescLeft">&#160;</td><td class="mdescRight">Геттер для m_clientCredentialsFile. <br /></td></tr>
+<tr class="separator:ada17e393a30cd59efba7860e73690750"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b896d8d63b986140eb5a0e42a8bfa62"><td class="memItemLeft" align="right" valign="top"><a id="a3b896d8d63b986140eb5a0e42a8bfa62"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classClient.html#a3b896d8d63b986140eb5a0e42a8bfa62">setClientCredentialsFile</a> (const string &amp;filename)</td></tr>
+<tr class="memdesc:a3b896d8d63b986140eb5a0e42a8bfa62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сеттер для m_clientCredentialsFile. <br /></td></tr>
+<tr class="separator:a3b896d8d63b986140eb5a0e42a8bfa62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс взаимодействия с сервером </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m_serverAddress</td><td>адрес сервера </td></tr>
+    <tr><td class="paramname">m_serverPort</td><td>порт сервера </td></tr>
+    <tr><td class="paramname">m_inputDataFile</td><td>имя файла с векторами </td></tr>
+    <tr><td class="paramname">m_outputDataFile</td><td>имя файла с результатами вычислений сервером </td></tr>
+    <tr><td class="paramname">m_clientCredentialsFile</td><td>имя файла с логином и паролем клиента </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Методы</h2>
+<a id="a5a46036fa3bd2640a134b8836024738d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a46036fa3bd2640a134b8836024738d">&#9670;&nbsp;</a></span>interactWithServer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Client::interactWithServer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Главная функция для взаимодействия клиента с сервером </p>
+<dl class="exception"><dt>Исключения</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classErrorManager.html" title="Класс обработки ошибок ErrorManager.">ErrorManager</a></td><td>при возникновении ошибки </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9d12d40010e32de931d562c6e8722d9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d12d40010e32de931d562c6e8722d9f">&#9670;&nbsp;</a></span>readLoginAndPasswordFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; std::string, std::string &gt; Client::readLoginAndPasswordFromFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функция для получения логина и пароля из файла </p>
+<dl class="section return"><dt>Возвращает</dt><dd>упорядоченную пару значений типа string, string соответствующих логину и паролю </dd></dl>
+
+</div>
+</div>
+<a id="a358df55c9dc08e0a90169072fa6ba4c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a358df55c9dc08e0a90169072fa6ba4c5">&#9670;&nbsp;</a></span>readVectorsFromFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::vector&lt; uint32_t &gt; &gt; Client::readVectorsFromFile </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Функция для получения векторов из файла </p>
+<dl class="section return"><dt>Возвращает</dt><dd>возвращает массив векторов типа vector&lt;uint32_t&gt; </dd></dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li><a class="el" href="Client_8h_source.html">Client.h</a></li>
+<li><a class="el" href="Client_8cpp.html">Client.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
